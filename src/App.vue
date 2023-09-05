@@ -12,27 +12,32 @@ interface Item {
 const items = ref<Item[]>([
   {
     "url": "/",
-    "image": "/test/images/app-name-generator.PNG",
+    "image": "./images/app-name-generator.PNG",
     "title": "AppNameGenerator"
   },
   {
     "url": "/",
-    "image": "/test/images/glossary-app.PNG",
+    "image": "./images/glossary-app.PNG",
     "title": "用語集アプリ"
   },
   {
     "url": "/",
-    "image": "/test/images/noutore1.PNG",
+    "image": "./images/noutore1.PNG",
     "title": "脳トレタイピング"
   },
   {
     "url": "/",
-    "image": "/test/images/sharer.PNG",
+    "image": "./images/sharer.PNG",
     "title": "Sharer"
   },
   {
     "url": "/",
-    "image": "/test/images/timetable.PNG",
+    "image": "./images/timetable.PNG",
+    "title": "TimeTable"
+  },
+  {
+    "url": "/",
+    "image": "./images/threejs.PNG",
     "title": "TimeTable"
   }
 ]);
