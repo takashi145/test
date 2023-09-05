@@ -1,5 +1,5 @@
 <template>
-<footer class="bg-white shadow dark:bg-gray-900">
+<footer class="bg-gray-200 shadow dark:bg-gray-900">
   <div class="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-between">
     <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
       © 2023 
