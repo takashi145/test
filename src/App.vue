@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
 import Card from './components/Card.vue';
+import Footer from './components/Footer.vue';
 
 interface Item {
   url: string
@@ -38,5 +39,7 @@ onMounted(async () => {
         </div>
       </div>  
     </div>
+
+    <Footer />
   </div>
 </template>
